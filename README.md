@@ -56,11 +56,15 @@ The goal is to survive as long as possible while collecting items to keep the ti
 
 📸 Screenshots
 🏃‍♂️ Running & Obstacles
-<p align="center"><img src="FunObjects.png" width="420"/></p>
-🍎 Collecting Apples (Speed Boost)
-<p align="center"><img src="StartLevel.png" width="420"/></p>
+
 🟢 Start Screen
 <p align="center"><img src="StartScene.png" width="420"/></p>
+
+🍎 Collecting Apples (Speed Boost)
+<p align="center"><img src="StartLevel.png" width="420"/></p>
+😂 Just a fun moment
+<p align="center"><img src="FunObjects.png" width="420"/></p>
+
 
 ---
 
