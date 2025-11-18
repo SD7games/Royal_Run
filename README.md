@@ -1,28 +1,28 @@
 # 🏃‍♂️ Royal Run  
 A small hyper-casual endless runner made in Unity.  
-The player runs through an infinite corridor filled with obstacles, falling objects and collectibles.  
-Simple, fast gameplay loop designed for practice and experimentation.
+The player moves through a continuously generated corridor filled with obstacles, falling objects and collectibles.  
+A compact gameplay loop focused on smooth movement, timing and quick reactions.
 
 ---
 
 ## 🎮 Gameplay Overview  
-The player automatically moves forward through a procedurally generated corridor.  
-The goal is to survive as long as possible while collecting items to keep the timer alive and increase score.
+The character automatically runs forward while the level is generated ahead.  
+The goal is to stay alive, maintain the timer and collect items to increase the score.
 
 ### Core Mechanics  
-- **Endless Movement:** continuous forward motion with infinite level generation.  
-- **Obstacles:** barrels, chairs, rocks, carts and other objects that block or slow the player.  
-- **Falling Objects:** random fun hazards for reaction-based dodging.  
+- **Endless Movement:** continuous forward motion with infinite generation.  
+- **Obstacles:** barrels, chairs, rocks, carts and other objects that can slow or stop the player.  
+- **Falling Objects:** random reaction-based hazards.  
 - **Collectibles:**  
-  - **Apples** – increase speed and refill time.  
-  - **Coins** – collected for score.  
-- **Timer System:** time decreases constantly but can be restored by apples and checkpoints, allowing infinite play.  
+  - **Apples** — increase speed and restore time.  
+  - **Coins** — add to score.  
+- **Timer System:** constantly decreases but can be restored by apples and checkpoints.  
 - **Player Reactions:**  
   - run animation  
-  - stumble animation when hitting obstacles (no damage, only visual feedback)  
-- **Camera Shake & VFX:** shake on impact, particles when speeding up.  
-- **Audio & UI:** footstep sounds, collision effects, pickup sounds, and a minimal HUD.  
-- **Post-processing:** color grading, bloom, subtle motion polish.
+  - stumble animation when hitting obstacles (visual feedback only)  
+- **Camera Shake & VFX:** shake on impact, speed-up particles.  
+- **Audio & UI:** footsteps, pickups, impact sounds, light HUD.  
+- **Post-processing:** bloom, color grading, subtle polish.
 
 ---
 
@@ -31,7 +31,7 @@ The goal is to survive as long as possible while collecting items to keep the ti
 - C#  
 - Procedural environment generation  
 - Simple object pooling  
-- Animator-based character reactions  
+- Animator-driven player reactions  
 - Trigger-based collectibles  
 - Timer and score logic  
 - Lightweight post-processing
@@ -54,17 +54,16 @@ The goal is to survive as long as possible while collecting items to keep the ti
     /Scenes
 ```
 
-📸 Screenshots
-🏃‍♂️ Running & Obstacles
+## 📸 Screenshots
 
-🟢 Start Screen
+### 🟢 Start Screen
 <p align="center"><img src="StartScene.png" width="420"/></p>
 
-🍎 Collecting Apples (Speed Boost)
+### 🍎 Collecting Apples (Speed Boost)
 <p align="center"><img src="StartLevel.png" width="420"/></p>
-😂 Just a fun moment
-<p align="center"><img src="FunObjects.png" width="420"/></p>
 
+### 😂 Just a fun moment
+<p align="center"><img src="FunObjects.png" width="420"/></p>
 
 ---
 
