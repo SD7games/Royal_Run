@@ -3,6 +3,9 @@ A small hyper-casual endless runner made in Unity.
 The player moves through a continuously generated corridor filled with obstacles, falling objects and collectibles.  
 A compact gameplay loop focused on smooth movement, timing and quick reactions.
 
+Playable WebGL version:  
+👉 **https://sd7games.itch.io/royalrun**
+
 ---
 
 ## 🎮 Gameplay Overview  
