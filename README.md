@@ -24,7 +24,7 @@ The goal is to stay alive, maintain the timer and collect items to increase the 
   - run animation  
   - stumble animation when hitting obstacles (visual feedback only)  
 - **Camera Shake & VFX:** shake on impact, speed-up particles.  
-- **Audio & UI:** footsteps, pickups, impact sounds, light HUD.  
+- **Audio & UI:** footsteps, pickups, impact sounds, minimal HUD.  
 - **Post-processing:** bloom, color grading, subtle polish.
 
 ---
@@ -56,7 +56,7 @@ The goal is to stay alive, maintain the timer and collect items to increase the 
     /Materials
     /Scenes
 ```
-
+```
 ## 📸 Screenshots
 
 ### 🟢 Start Screen
